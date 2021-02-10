@@ -24,7 +24,7 @@ img {
   border-radius: 4px;
 }
 
-p {
+.blog p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -32,6 +32,6 @@ p {
   margin-inline-end: 0px;
   padding-top: 0.25rem;
 }
-p:first-of-type {
+.blog p:first-of-type {
   text-indent: 1rem;
 }
