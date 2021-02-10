@@ -36,6 +36,7 @@ export default function Post({ postData }) {
             <title>
               {postData.title}: {postData.subtitle}
             </title>
+            <meta property="og:image" content={postData.header} />
           </Head>
 
           <article>
