@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
@@ -26,21 +27,22 @@ export default function Post({ postData }) {
   const router = useRouter();
   return (
     <>
-      <div>
-        <img
-          loading="eager"
+      <div className="max-w-xl mx-auto">
+        <Image
           className="rounded w-full md:max-w-xl md:mx-auto"
           src={postData.header}
           alt={postData.alt}
-          height="648"
-          width="486"
+          width={1600}
+          height={900}
+          priority="true"
+          layout="responsive"
         />
         <Layout>
           <Head>
             <title>
               {postData.title}: {postData.subtitle}
             </title>
-            <meta property="description" content={postData.description} />
+            <meta name="description" content={postData.description} />
             <meta
               property="og:image"
               content={"http://nordicyogi.com" + postData.header}
@@ -64,10 +66,12 @@ export default function Post({ postData }) {
             </h1>
 
             <div className="text-gray-400 flex flex-col smxxl:flex-row">
-              <img
+              <Image
                 src="/images/profile.jpg"
                 className="rounded-full w-6 h-6"
                 alt=""
+                width="27"
+                height="27"
               />
               <Link href="/">
                 <a>
