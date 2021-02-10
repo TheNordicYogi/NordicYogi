@@ -34,7 +34,7 @@ export default function Post({ postData }) {
           alt={postData.alt}
           width={1600}
           height={900}
-          priority="true"
+          priority={true}
           layout="responsive"
         />
         <Layout>
@@ -65,16 +65,17 @@ export default function Post({ postData }) {
               <span className="text-gray-400"> {postData.subtitle}</span>
             </h1>
 
-            <div className="text-gray-400 flex flex-col smxxl:flex-row">
-              <Image
-                src="/images/profile.jpg"
-                className="rounded-full w-6 h-6"
-                alt=""
-                width="27"
-                height="27"
-              />
+            <div className="text-gray-400 flex flex-col smxxl:flex-row items-center">
               <Link href="/">
-                <a>
+                <a className="flex justify-center items-center">
+                  <Image
+                    src="/images/profile.jpg"
+                    className="rounded-full w-6 h-6"
+                    alt=""
+                    width="64"
+                    height="64"
+                    priority={true}
+                  />
                   <span className="smxxl:pl-2 smxxl:pr-1">
                     {" "}
                     Curtis Knudson -{" "}
