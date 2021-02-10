@@ -1,6 +1,7 @@
 ---
 title: "The Second Endowment"
 subtitle: "Having ones Calling and Election made sure"
+description: "Does the Second Endowment exist? Does the Mormon Church still practice it? Dive in and learn about the Second Endowment today."
 date: "2020-09-20"
 header: "/images/second-endowment-assets/header.png"
 alt: "Early Bird Containers"

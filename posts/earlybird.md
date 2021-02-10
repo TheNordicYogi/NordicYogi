@@ -1,6 +1,7 @@
 ---
 title: "Early Bird"
 subtitle: "The right way to start your morning"
+description: "Try Early Birds morning cocktail today! See how your life changes with this coffee and energy drink replacement."
 date: "2021-02-09"
 header: "/images/earlybird.png"
 alt: "Early Bird Containers"

@@ -42,10 +42,7 @@ export default function Post({ postData }) {
               property="og:image"
               content={"http://nordicyogi.com" + postData.header}
             />
-            <meta
-              property="og:description"
-              content={postData.title + ": " + postData.subtitle}
-            />
+            <meta property="og:description" content={postData.description} />
             <meta
               propert="og:url"
               content={"https://nordicyogi.com" + router.asPath}
