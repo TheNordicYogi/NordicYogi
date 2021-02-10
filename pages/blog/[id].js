@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
+import { useRouter } from "next/router";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -22,6 +23,7 @@ export async function getStaticPaths() {
 }
 
 export default function Post({ postData }) {
+  const router = useRouter();
   return (
     <>
       <div>
@@ -36,7 +38,23 @@ export default function Post({ postData }) {
             <title>
               {postData.title}: {postData.subtitle}
             </title>
-            <meta property="og:image" content={postData.header} />
+            <meta
+              property="og:image"
+              content={"http://nordicyogi.com" + postData.header}
+            />
+            <meta
+              property="og:description"
+              content={postData.title + ": " + postData.subtitle}
+            />
+            <meta
+              propert="og:url"
+              content={"https://nordicyogi.com" + router.asPath}
+            />
+            <meta property="og:type" content="article" />
+            <meta
+              property="twitter:card"
+              content={"https://nordicyogi.com" + postData.header}
+            />
           </Head>
 
           <article>

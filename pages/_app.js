@@ -3,7 +3,7 @@ import { TrackingProvider } from "../contexts/trackers";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <TrackingProvider>
+    <TrackingProvider value="dark">
       <Component {...pageProps} />;
     </TrackingProvider>
   );

@@ -41,18 +41,32 @@ export default function Layout({ children, home }) {
   return (
     <div className="max-w-xl py-0 mt-12 mx-auto mb-24 px-4 md:px-0">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Nordic Yogi: Lifestyle, Religion, Code"
-        />
-        <meta
-          name="og:description"
-          content="Nordic Yogi: Lifestyle, Religion, Code"
-        />
-        <meta property="og:image" content="/images/og-image" />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="/images/og-image" />
+        {home ? (
+          <>
+            <link rel="icon" href="/favicon.ico" />
+            <meta
+              property="description"
+              content="Nordic Yogi: Lifestyle, Religion, Code"
+            />
+            <meta
+              property="og:description"
+              content="Nordic Yogi: Lifestyle, Religion, Code"
+            />
+            <meta
+              property="og:image"
+              content="https://nordicyogi.com/images/og-image.jpg"
+            />
+            <meta property="og:url" content="https://nordicyogi.com" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content={siteTitle} />
+            <meta
+              property="twitter:card"
+              content="https://nordicyogi.com/images/og-image.jpg"
+            />
+          </>
+        ) : (
+          <meta />
+        )}
       </Head>
       <header className="flex flex-col items-center">
         {home ? (

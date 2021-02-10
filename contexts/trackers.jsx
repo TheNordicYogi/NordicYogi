@@ -3,7 +3,7 @@ import Router from "next/router";
 import ReactGA from "react-ga";
 
 const TrackingID = "UA-171822364-1";
-const TrackingContext = React.createContext();
+const TrackingContext = React.createContext("light");
 
 function TrackingProvider(props) {
   // we create a default state to keep track of whether GA
