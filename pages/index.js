@@ -24,8 +24,8 @@ export default function Home({ allPostsData }) {
         </Head>
         <section className="text-xl">
           <p>
-            Hi, I'm Curtis and I have a passion for Religion, Spirituality and
-            building websites with React.
+            Hi, I'm Curtis and I have a passion for religion, wine and building
+            websites with React.
           </p>
           <p></p>
         </section>
@@ -33,7 +33,12 @@ export default function Home({ allPostsData }) {
           <h2 className="text-2xl my-4 mx-0  font-semibold">Blog</h2>
           <ul className="list-none py-4 px-0 m-0">
             {allPostsData.map(({ id, date, title }) => (
-              <li className="mt-0 mx-0 mb-0.5 text-blue-500" key={id}>
+              <li
+                className="mt-0 mx-0 mb-0.5 text-blue-500 hover:text-blue-700
+                hover:bg-gray-50
+                rounded"
+                key={id}
+              >
                 <Link href={`/blog/${id}`}>
                   <a>
                     {title}

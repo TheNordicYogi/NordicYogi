@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
@@ -24,15 +23,13 @@ export async function getStaticPaths() {
 export default function Post({ postData }) {
   return (
     <>
-      <div className="blog">
-        <div className="w-full md:max-w-xl h-auto mx-auto">
-          <img
-            loading="eager"
-            className="rounded"
-            src={postData.image}
-            alt={postData.alt}
-          />
-        </div>
+      <div>
+        <img
+          loading="eager"
+          className="rounded w-full md:max-w-xl md:mx-auto"
+          src={postData.header}
+          alt={postData.alt}
+        />
         <Layout>
           <Head>
             <title>
@@ -46,11 +43,18 @@ export default function Post({ postData }) {
               <span className="text-gray-400"> {postData.subtitle}</span>
             </h1>
 
-            <div className="text-gray-400">
+            <div className="text-gray-400 flex flex-col smxxl:flex-row">
+              <img
+                src="/images/profile.jpg"
+                className="rounded-full w-6 h-6"
+                alt=""
+              />
+              <span className="smxxl:pl-2 smxxl:pr-1"> Curtis Knudson - </span>
               <Date dateString={postData.date} />
             </div>
+
             <div
-              className="mt-4"
+              className="mt-4 blog"
               dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
             />
           </article>

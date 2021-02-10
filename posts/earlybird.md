@@ -1,8 +1,8 @@
 ---
 title: "Early Bird"
 subtitle: "The right way to start your morning"
-date: "2020-01-01"
-image: "/images/earlybird.png"
+date: "2021-02-09"
+header: "/images/earlybird.png"
 alt: "Early Bird Containers"
 ---
 
