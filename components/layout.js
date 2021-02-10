@@ -50,9 +50,9 @@ export default function Layout({ children, home }) {
           name="og:description"
           content="Nordic Yogi: Lifestyle, Religion, Code"
         />
-        <meta property="og:image" content="/og-image" />
+        <meta property="og:image" content="/images/og-image" />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="/og-image" />
+        <meta name="twitter:card" content="/images/og-image" />
       </Head>
       <header className="flex flex-col items-center">
         {home ? (
