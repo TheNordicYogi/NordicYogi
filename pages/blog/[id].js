@@ -32,6 +32,8 @@ export default function Post({ postData }) {
           className="rounded w-full md:max-w-xl md:mx-auto"
           src={postData.header}
           alt={postData.alt}
+          height="648"
+          width="486"
         />
         <Layout>
           <Head>
