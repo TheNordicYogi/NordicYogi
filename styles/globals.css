@@ -53,4 +53,5 @@ img {
 }
 .blog > p > img {
   margin: 0 auto;
+  aspect-ratio: attr(648) / attr(348);
 }

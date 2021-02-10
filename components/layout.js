@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const name = "Curtis Knudson";
@@ -71,10 +72,12 @@ export default function Layout({ children, home }) {
       <header className="flex flex-col items-center">
         {home ? (
           <>
-            <img
+            <Image
               src="/images/profile.jpg"
               className="rounded-full   w-32 h-32"
               alt={name}
+              width="128"
+              height="128"
             />
             <h1 className="text-4xl tracking-tighter font-extrabold my-4 mx-0">
               {name}

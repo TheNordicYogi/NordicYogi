@@ -40,6 +40,7 @@ export default function Post({ postData }) {
             <title>
               {postData.title}: {postData.subtitle}
             </title>
+            <meta property="description" content={postData.description} />
             <meta
               property="og:image"
               content={"http://nordicyogi.com" + postData.header}
