@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
@@ -49,7 +50,15 @@ export default function Post({ postData }) {
                 className="rounded-full w-6 h-6"
                 alt=""
               />
-              <span className="smxxl:pl-2 smxxl:pr-1"> Curtis Knudson - </span>
+              <Link href="/">
+                <a>
+                  <span className="smxxl:pl-2 smxxl:pr-1">
+                    {" "}
+                    Curtis Knudson -{" "}
+                  </span>
+                </a>
+              </Link>
+
               <Date dateString={postData.date} />
             </div>
 

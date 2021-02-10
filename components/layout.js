@@ -1,10 +1,43 @@
 import Head from "next/head";
 import Link from "next/link";
+import React, { useState } from "react";
 
 const name = "Curtis Knudson";
+const zapierHook = "https://hooks.zapier.com/hooks/catch/9225569/ophct6n/";
+
 export const siteTitle = "Nordic Yogi";
 
-export default function Layout({ props, children, home }) {
+export default function Layout({ children, home }) {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [person, setPerson] = useState({
+    email: "",
+  });
+
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setPerson({ ...person, [name]: value });
+  };
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    if (person.email) {
+      setPerson({ email: "" });
+      fetch(zapierHook, {
+        method: "POST",
+        body: JSON.stringify({ person }),
+      })
+        .then(() => setFormSubmitted(true))
+        .catch((err) => {
+          alert(
+            "There was an error, please contact me at curtisknudson@gmail.com"
+          );
+        });
+    } else {
+      alert("Your information is required to submit!");
+    }
+  };
+
   return (
     <div className="max-w-xl py-0 mt-12 mx-auto mb-24 px-4 md:px-0">
       <Head>
@@ -38,32 +71,53 @@ export default function Layout({ props, children, home }) {
           <span></span>
         )}
       </header>
-
       <main className="">{children}</main>
       {!home && (
-        <div className="flex flex-col text-lg">
-          <h4 className="text-4xl font-extrabold tracking-tighter mt-8">
-            Stay in touch!
-          </h4>
-          <p className="pt-1">Get our top stories straight to your inbox</p>
-          <form className="w-full mt-1" action="">
-            <label htmlFor="email"></label>
-            <input
-              className=" w-full h-8 text-gray-400 outline-none
+        <div>
+          {formSubmitted ? (
+            <div className="flex flex-col items-center text-lg justify-around mt-8">
+              <h4 className="text-4xl font-extrabold tracking-tighter ">
+                Thank you for subscribing!
+              </h4>
+            </div>
+          ) : (
+            <div className="flex flex-col items-center text-lg justify-around mt-8">
+              <h4 className="text-4xl font-extrabold tracking-tighter ">
+                Stay in touch!
+              </h4>
+              <p className="pt-1">Get our top stories straight to your inbox</p>
+              <form
+                className="w-full mt-4 flex flex-col items-center"
+                action=""
+              >
+                <label htmlFor="email"></label>
+                <input
+                  className=" w-full h-8 text-gray-400 outline-none text-center
             "
-              type="email"
-              name="email"
-              id="email"
-              placeholder="EMAIL ADDRESS"
-            />
-          </form>
-        </div>
-      )}
-      {!home && (
-        <div className="mt-12 mx-0 mb-0">
-          <Link href="/">
-            <a className="text-blue-300 hover:text-blue-500 ">← Back to home</a>
-          </Link>
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="EMAIL ADDRESS"
+                  value={person.email}
+                  onChange={handleChange}
+                />
+                <button
+                  className="text-center font-semibold mt-2 h-12 rounded w-24  hover:bg-gray-200"
+                  type="submit"
+                  onClick={handleClick}
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          )}
+          <div className="mt-12 mx-0 mb-0">
+            <Link href="/">
+              <a className="text-blue-300 hover:text-blue-500 ">
+                ← Back to home
+              </a>
+            </Link>
+          </div>
         </div>
       )}
     </div>
