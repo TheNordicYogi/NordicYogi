@@ -109,7 +109,9 @@ export default function Layout({ children, home }) {
               <h4 className="text-4xl font-extrabold tracking-tighter ">
                 Stay in touch!
               </h4>
-              <p className="pt-1">Get our top stories straight to your inbox</p>
+              <p className="pt-1 text-center">
+                Get our top stories straight to your inbox
+              </p>
               <form
                 className="w-full mt-4 flex flex-col items-center"
                 action=""
