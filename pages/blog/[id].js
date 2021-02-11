@@ -94,8 +94,10 @@ export default function Post({ postData }) {
               {postData.affiliateLink ? (
                 <div className="flex items-center justify-center my-2">
                   <a
-                    className="rounded p-2 bg-yellow-600 earlyBird hover:bg-yellow-400"
-                    href=""
+                    className="rounded p-2 bg-yellow-600 earlyBird hover:bg-yellow-400
+                    font-semibold
+                    text-center"
+                    href={postData.affiliateLink}
                   >
                     {postData.affiliateDescription}
                   </a>
