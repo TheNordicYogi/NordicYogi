@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
-    "build": "next build",
-    "server": "next build && NODE_ENV=production node server.js"
+    "build": "next build"
   },
   "dependencies": {
     "@next/mdx": "^10.0.6",
@@ -15,7 +14,6 @@
     "express": "^4.17.1",
     "gray-matter": "^4.0.2",
     "next": "10.0.6",
-    "next-offline": "^5.0.3",
     "postcss": "^8.2.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -23,8 +21,5 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "tailwindcss": "^2.0.3"
-  },
-  "devDependencies": {
-    "webpack": "^4.46.0"
   }
 }
