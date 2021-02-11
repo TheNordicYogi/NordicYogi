@@ -42,6 +42,10 @@ export default function Layout({ children, home }) {
   return (
     <div className="max-w-xl py-0 mt-12 mx-auto mb-24 px-4 md:px-0">
       <Head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/logo512.png" />
+        <meta name="apple-mobile-web-app-status-bar" content="#000000" />
+        <meta name="theme-color" content="#000000" />
         {home ? (
           <>
             <link rel="icon" href="/favicon.ico" />
