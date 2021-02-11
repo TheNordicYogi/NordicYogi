@@ -53,5 +53,14 @@ img {
 }
 .blog > p > img {
   margin: 0 auto;
-  aspect-ratio: attr(648) / attr(348);
+}
+
+.blog > p > img[alt="Gif"] {
+  height: 150px;
+  width: auto;
+}
+
+.earlyBird {
+  background: #f26724;
+  color: white;
 }

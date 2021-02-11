@@ -90,10 +90,24 @@ export default function Post({ postData }) {
               </Link>
             </div>
             <hr className="mt-4 shadow-2xl" />
-            <div
-              className="mt-4 blog"
-              dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-            />
+            <div>
+              {postData.affiliateLink ? (
+                <div className="flex items-center justify-center my-2">
+                  <a
+                    className="rounded p-2 bg-yellow-600 earlyBird hover:bg-yellow-400"
+                    href=""
+                  >
+                    {postData.affiliateDescription}
+                  </a>
+                </div>
+              ) : (
+                <span></span>
+              )}
+              <div
+                className="mt-4 blog"
+                dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+              />
+            </div>
           </article>
         </Layout>
       </div>
