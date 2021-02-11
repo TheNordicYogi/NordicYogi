@@ -78,7 +78,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               src="/images/profile.jpg"
-              className="rounded-full   w-32 h-32"
+              className="   w-32 h-32"
               alt={name}
               width="128"
               height="128"

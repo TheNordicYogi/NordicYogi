@@ -65,25 +65,26 @@ export default function Post({ postData }) {
               <span className="text-gray-400"> {postData.subtitle}</span>
             </h1>
 
-            <div className="text-gray-400 flex flex-col smxxl:flex-row items-center">
+            <div className="text-gray-400 flex  items-center">
               <Link href="/">
-                <a className="flex justify-center items-center">
+                <a className=" w-full flex items-center ">
                   <Image
+                    className="min-w-26"
                     src="/images/profile.jpg"
-                    className="rounded-full w-6 h-6"
                     alt=""
-                    width="64"
-                    height="64"
+                    width={64}
+                    height={64}
                     priority={true}
                   />
-                  <span className="smxxl:pl-2 smxxl:pr-1">
-                    {" "}
-                    Curtis Knudson -{" "}
-                  </span>
+                  <div
+                    className="flex flex-col w-full  px-4 smxxl:flex-row
+                  smxxl:px-0"
+                  >
+                    <span className="smxxl:mx-2"> Curtis Knudson </span>
+                    <Date dateString={postData.date} />
+                  </div>
                 </a>
               </Link>
-
-              <Date dateString={postData.date} />
             </div>
 
             <div
