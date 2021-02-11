@@ -61,3 +61,5 @@ All you have to do is follow the **Early Bird Routine**.
 It's really that easy. The routine follows the basic philosophy of Habit building as laid out in _The Power of Habit_. There is a **Que**, **Routine** and **Reward**.
 
 Simply decide what time you want to wake up, make sure you have your shaker bottle ready, and go to sleep knowing that tomorrow will be productive!
+
+![Early Bird Nutrition ](/images/early-bird/footer.jpg)
