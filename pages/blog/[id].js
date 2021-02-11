@@ -80,13 +80,16 @@ export default function Post({ postData }) {
                     className="flex flex-col w-full  px-4 smxxl:flex-row
                   smxxl:px-0"
                   >
-                    <span className="smxxl:mx-2"> Curtis Knudson </span>
+                    <span className="smxxl:mx-2  text-blue-400  underline">
+                      Curtis Knudson
+                    </span>
+
                     <Date dateString={postData.date} />
                   </div>
                 </a>
               </Link>
             </div>
-
+            <hr className="mt-4 shadow-2xl" />
             <div
               className="mt-4 blog"
               dangerouslySetInnerHTML={{ __html: postData.contentHtml }}

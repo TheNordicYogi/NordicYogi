@@ -54,6 +54,10 @@ export default function Layout({ children, home }) {
               content="Nordic Yogi: Lifestyle, Religion, Code"
             />
             <meta
+              name="description"
+              content="Nordic Yogi: Lifestyle, Religion, Code"
+            />
+            <meta
               property="og:description"
               content="Nordic Yogi: Lifestyle, Religion, Code"
             />
