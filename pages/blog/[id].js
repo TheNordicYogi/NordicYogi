@@ -65,24 +65,19 @@ export default function Post({ postData }) {
               <span className="text-gray-400"> {postData.subtitle}</span>
             </h1>
 
-            <div className="text-gray-400 flex  items-center">
+            <div className="text-gray-400 my-6 flex items-center">
               <Link href="/">
                 <a className=" w-full flex items-center ">
                   <Image
-                    className="min-w-26"
+                    className="min-w-26 rounded-full"
                     src="/images/profile.jpg"
                     alt=""
                     width={64}
                     height={64}
                     priority={true}
                   />
-                  <div
-                    className="flex flex-col w-full  px-4 smxxl:flex-row
-                  smxxl:px-0"
-                  >
-                    <span className="smxxl:mx-2  text-blue-400  underline">
-                      Curtis Knudson
-                    </span>
+                  <div className="flex flex-col w-full  px-4 justify-start">
+                    <span className=" text-green-600  ">Curtis Knudson</span>
 
                     <Date dateString={postData.date} />
                   </div>
@@ -92,7 +87,7 @@ export default function Post({ postData }) {
             <hr className="mt-4 shadow-2xl" />
             <div>
               {postData.affiliateLink ? (
-                <div className="flex items-center justify-center my-2">
+                <div className="flex items-center justify-center my-4">
                   <a
                     className="rounded p-2 bg-yellow-600 earlyBird hover:bg-yellow-400
                     font-semibold

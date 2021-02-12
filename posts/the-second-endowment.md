@@ -5,6 +5,8 @@ description: "Does the Second Endowment exist? Does the Mormon Church still prac
 date: "2020-09-20"
 header: "/images/second-endowment-assets/header.jpg"
 alt: "Early Bird Containers"
+firstparagraph: "Long has the elusive and mysterious Second Endowment been talked about among Latter-Day Saints. Many do not know that it exists. Those who do, do not know what it is - or what takes place."
+readtime: "25"
 ---
 
 ## Introduction
