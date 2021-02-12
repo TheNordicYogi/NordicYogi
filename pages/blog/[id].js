@@ -60,7 +60,7 @@ export default function Post({ postData }) {
           </Head>
 
           <article>
-            <h1 className="text-4xl tracking-tighter my-4 mx-0 font-extrabold">
+            <h1 className="text-4xl tracking-tighter my-4 mx-0 font-extrabold dark:text-white87">
               {postData.title}:
               <span className="text-gray-400"> {postData.subtitle}</span>
             </h1>
@@ -101,7 +101,7 @@ export default function Post({ postData }) {
                 <span></span>
               )}
               <div
-                className="mt-4 blog"
+                className="mt-4 blog  dark:text-white87"
                 dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
               />
             </div>

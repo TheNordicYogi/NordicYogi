@@ -11,6 +11,12 @@ body {
   font-size: 18px;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -63,4 +69,21 @@ img {
 .earlyBird {
   background: #f26724;
   color: white;
+}
+
+/* Light/Dark Mode */
+.toggle__dot {
+  top: -0.25rem;
+  left: -0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input:checked ~ .toggle__dot {
+  transform: translateX(100%);
+  background-color: #ffffff;
+}
+
+.dark {
+  background-color: black;
+  transition: all 0.5s ease-in-out;
 }

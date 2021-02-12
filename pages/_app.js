@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <TrackingProvider value="dark">
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </TrackingProvider>
   );
 }

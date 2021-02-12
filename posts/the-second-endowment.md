@@ -15,7 +15,7 @@ Long has the elusive and mysterious "Second Endowment" been talked about among L
 
 There is very little to be said, since the nature of the ceremony is secretive. Here I will bring to light a first hand account; paired with the doctrines of Christianity, as well as the Mormon Church. I hope to bring further understanding into this practice and it’s significance.
 
-![Jesus washes disciples feet](/images/second-endowment-assets/jesus-washes-disciples-feet.jpg)
+![Jesus washes disciples feet](/images/second-endowment-assets/jesus-washes-disciples-feet.png)
 
 ### Giovanni Stefano Danedi - Jesus Washing the Feet of the Apostles
 
@@ -45,7 +45,7 @@ This ordinance gives one **_cause_** to receive a comforter of the Holy Ghost. T
 >
 > _“But the comforter, **WHICH IS THE HOLY GHOST**, whom the father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you”_
 
-![The Holy Spirit Giaquinto, Corrado](/images/second-endowment-assets/holy-ghost-depiction.jpg)
+![The Holy Spirit Giaquinto, Corrado](/images/second-endowment-assets/holy-ghost-depiction.png)
 
 ### Giaquinto, Corrado - The Holy Spirit
 
@@ -65,7 +65,7 @@ That is what the Comforter is! A knowledge, not a belief, that the Holy Ghost is
 
 > _"There are two Comforters spoken of. One is the Holy Ghost, the same as given on the day of Pentecost, and that all Saints receive after faith, repentance, and baptism. This first Comforter or Holy Ghost has no other effect than pure intelligence. It is more powerful in expanding the mind, enlightening the understanding, and storing the intellect with present knowledge, of a man who is of the literal seed of Abraham, than one that is a Gentile, though it may not have half as much visible effect upon the body; for as the Holy Ghost falls upon one of the literal seed of Abraham, it is calm and serene; and his whole soul and body are only exercised by the pure spirit of intelligence;"_
 
-![Joseph Smith preaching, Sam Lawlor](/images/second-endowment-assets/js-preaching.jpg)
+![Joseph Smith preaching, Sam Lawlor](/images/second-endowment-assets/js-preaching.png)
 
 ### Joseph Preaching - By Sam Lawlor
 
@@ -79,7 +79,7 @@ The First Endowment has nothing to do with the First Comforter. **_But the Secon
 
 > _"This Comforter is the promise which I give unto you of eternal life, even the glory of the celestial kingdom;"_
 
-![Joseph Smith receives vision of the Celestial Kingdom](/images/second-endowment-assets/js-celestial-kingdom.jpg)
+![Joseph Smith receives vision of the Celestial Kingdom](/images/second-endowment-assets/js-celestial-kingdom.png)
 
 ### Joseph Smith receives vision of the Celestial Kingdom
 
@@ -123,7 +123,7 @@ Which is it? The Holy Spirit of Promise, or Jesus Christ himself?
 
 Now you may begin to understand why I put so much emphasis on the First Comforter. One receives the Holy Ghost at the confirmation of ones Baptism. They are obtaining cause to move forward and receive a COMFORTER from the Holy Ghost. Almost identically in the Second Endowment, hands are laid upon ones head and they are GIVEN the Holy Spirit of Promise. This is the promise of eternal life, even the glory of the celestial kingdom. The comforter, of that promise, is Jesus Christ in the flesh!
 
-![Artistic rendition of Jesus - from an impression on the Shroud of Turin](/images/second-endowment-assets/jesuschrist.jpg)
+![Artistic rendition of Jesus - from an impression on the Shroud of Turin](/images/second-endowment-assets/jesuschrist.png)
 
 ### Artistic rendition of Jesus - from an impression on the Shroud of Turin
 
@@ -145,7 +145,7 @@ Jesus said, in arguably the most quoted scripture in Mormonism, to Joseph Smith:
 
 From this we can take away that ones Marriage, Baptism, Covenant Children, First Endowment and lifes work are of "no efficacy" and will "have an end when men are dead" if they do not receive this Promise. Further emphasizing what Jesus meant when he told Peter “if I wash thee not, though hast no part with me”
 
-![Artistic rendition of Jesus - from an impression on the Shroud of Turin](/images/second-endowment-assets/res-raphael.jpg)
+![Artistic rendition of Jesus - from an impression on the Shroud of Turin](/images/second-endowment-assets/res-raphael.png)
 
 ### Rafaello Sanzio of Urbino: The Resurrection
 
@@ -159,7 +159,7 @@ In "Teachings of the Prophet Joseph Smith", Joseph Smith teaches: [[7]](https://
 
 That is the meaning of having your "Calling and Election made sure". To be sealed up "unto the day of redemption".
 
-![The Dream of Solomon - Luca Giordano](/images/second-endowment-assets/solomon-dream.jpg)
+![The Dream of Solomon - Luca Giordano](/images/second-endowment-assets/solomon-dream.png)
 
 ### The Dream of Solomon - Luca Giordano
 

@@ -9,6 +9,7 @@ const zapierHook = "https://hooks.zapier.com/hooks/catch/9225569/ophct6n/";
 export const siteTitle = "Nordic Yogi";
 
 export default function Layout({ children, home }) {
+  const [darkMode, setDarkMode] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [person, setPerson] = useState({
     email: "",
@@ -87,7 +88,7 @@ export default function Layout({ children, home }) {
               width="128"
               height="128"
             />
-            <h1 className="text-4xl tracking-tighter font-extrabold my-4 mx-0">
+            <h1 className="text-4xl tracking-tighter font-extrabold my-4 mx-0 dark:text-white87">
               {name}
             </h1>
           </>
@@ -100,25 +101,25 @@ export default function Layout({ children, home }) {
         <div>
           {formSubmitted ? (
             <div className="flex flex-col items-center text-lg justify-around mt-8">
-              <h4 className="text-4xl font-extrabold tracking-tighter ">
+              <h4 className="text-4xl font-extrabold tracking-tighter dark:text-white87 ">
                 Thank you for subscribing!
               </h4>
             </div>
           ) : (
             <div className="flex flex-col items-center text-lg justify-around mt-8">
-              <h4 className="text-4xl font-extrabold tracking-tighter ">
+              <h4 className="text-4xl font-extrabold tracking-tighter dark: text-white87">
                 Stay in touch!
               </h4>
-              <p className="pt-1 text-center">
+              <p className="pt-1 text-center dark:text-white87">
                 Get our top stories straight to your inbox
               </p>
               <form
-                className="w-full mt-4 flex flex-col items-center"
+                className="w-full mt-4 flex flex-col items-center  rounded dark:bg-mgray dark:text-white87"
                 action=""
               >
                 <label htmlFor="email"></label>
                 <input
-                  className=" w-full h-8 text-gray-400 outline-none text-center
+                  className=" w-full h-8 text-gray-400 outline-none text-center rounded my-2  dark:bg-transparent dark:text-white87
             "
                   type="email"
                   name="email"
@@ -128,8 +129,8 @@ export default function Layout({ children, home }) {
                   onChange={handleChange}
                 />
                 <button
-                  className="text-center font-semibold mt-2 h-12 rounded w-24  hover:bg-gray-200"
-                  type="submit"
+                  className="text-center font-semibold mt-2 h-12 rounded w-24  hover:bg-gray-200 dark:bg-transparent dark:text-white87 dark:hover:bg-gray-600"
+                  type="submit "
                   onClick={handleClick}
                 >
                   Subscribe
