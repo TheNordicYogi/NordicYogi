@@ -8,7 +8,10 @@ alt: "Early Bird Containers"
 affiliateLink: "https://www.clubearlybird.com/?rfsn=5394079.650882&utm_source=refersion&utm_medium=affiliate&utm_campaign=5394079.650882"
 affiliateDescription: "BUY EARLY BIRD TODAY - USE CODE: CBK10"
 firstparagraph: "I am always skeptical when anyone wants to sell me anything, but as all good things come, I found it when I wasn't looking."
-readtime: "6"
+readtime: "2"
+type: "Blog"
+authorImg: "/images/profile.jpg"
+authorName: "Curtis Knudson"
 ---
 
 ## How I changed my Morning Routine

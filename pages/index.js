@@ -45,6 +45,9 @@ export default function Home({ allPostsData }) {
                 subtitle,
                 firstparagraph,
                 readtime,
+                type,
+                authorImg,
+                authorName,
               }) => (
                 <li className="my-4" key={id}>
                   <Link href={`/blog/${id}`}>
@@ -60,7 +63,7 @@ export default function Home({ allPostsData }) {
                       </div>
                       <div className="ml-2 mr-8 dark:text-white87">
                         <span className="text-blue-500 text-xs my-2  font-extrabold ">
-                          Blog
+                          {type}
                         </span>
                         <h1 className="tracking-tighter text-md  font-extrabold my-1">
                           {title}:
@@ -72,14 +75,14 @@ export default function Home({ allPostsData }) {
                         <div className="my-4  flex text-sm items-center">
                           <img
                             className="rounded-full"
-                            src="/images/profile.jpg"
-                            alt="Curtis Knudson portrait"
+                            src={authorImg}
+                            alt={authorName}
                             height={64}
                             width={64}
                           />
                           <div className="flex flex-col  mx-4">
                             <span className="my-1 text-green-600">
-                              Curtis Knudson
+                              {authorName}
                             </span>
                             <span className="text-gray-400">
                               <Date dateString={date} /> - {readtime} minute

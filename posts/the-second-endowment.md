@@ -7,6 +7,9 @@ header: "/images/second-endowment-assets/header.jpg"
 alt: "Early Bird Containers"
 firstparagraph: "Long has the elusive and mysterious Second Endowment been talked about among Latter-Day Saints. Many do not know that it exists. Those who do, do not know what it is - or what takes place."
 readtime: "25"
+type: "Blog"
+authorImg: "/images/profile.jpg"
+authorName: "Curtis Knudson"
 ---
 
 ## Introduction
@@ -226,7 +229,7 @@ In Mormonism, members lay claim to the fact that Christians have lost the priest
 Mormonism and it's endowments play on the subtle implications and ordinances throughout the New and Old Testament. Joseph Smith was very keen and well read. Although most of his knowledge came from Masonry, his knowledge of the scripture and it's endowments hold up to this day.
 Certainly Smiths ability continues to set Mormonism apart.
 
-To further demonstrate the beautiful ability that Smith had, not only with knowledge of the scripture, but in penning them, I will end this Blog with section 76 [[12](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng) of the Doctrine and Covenants. It is the description of one who has received this ordinance, and been given the Promise of eternal life. This was a vision Joseph Smith received of God's glory.
+To further demonstrate the beautiful ability that Smith had, not only with knowledge of the scripture, but in penning them, I will end this Blog with section 76 [[12]](https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng) of the Doctrine and Covenants. It is the description of one who has received this ordinance, and been given the Promise of eternal life. This was a vision Joseph Smith received of God's glory.
 
 > _"And again we bear record—for we saw and heard, and this is the testimony of the gospel of Christ concerning them who shall come forth in the resurrection of the just"_
 >

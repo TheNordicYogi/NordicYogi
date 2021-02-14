@@ -70,14 +70,16 @@ export default function Post({ postData }) {
                 <a className=" w-full flex items-center ">
                   <Image
                     className="min-w-26 rounded-full"
-                    src="/images/profile.jpg"
+                    src={postData.authorImg}
                     alt=""
                     width={64}
                     height={64}
                     priority={true}
                   />
                   <div className="flex flex-col w-full  px-4 justify-start">
-                    <span className=" text-green-600  ">Curtis Knudson</span>
+                    <span className=" text-green-600  ">
+                      {postData.authorName}
+                    </span>
 
                     <Date dateString={postData.date} />
                   </div>
