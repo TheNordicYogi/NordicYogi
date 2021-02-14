@@ -9,7 +9,6 @@ const zapierHook = "https://hooks.zapier.com/hooks/catch/9225569/ophct6n/";
 export const siteTitle = "Nordic Yogi";
 
 export default function Layout({ children, home }) {
-  const [darkMode, setDarkMode] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [person, setPerson] = useState({
     email: "",
@@ -107,7 +106,7 @@ export default function Layout({ children, home }) {
             </div>
           ) : (
             <div className="flex flex-col items-center text-lg justify-around mt-8">
-              <h4 className="text-4xl font-extrabold tracking-tighter dark: text-white87">
+              <h4 className="text-4xl font-extrabold tracking-tighter dark:text-white87">
                 Stay in touch!
               </h4>
               <p className="pt-1 text-center dark:text-white87">
