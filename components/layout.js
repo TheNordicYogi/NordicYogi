@@ -120,6 +120,7 @@ export default function Layout({ children, home }) {
                 <input
                   className=" w-full h-8 text-gray-400 outline-none text-center rounded my-2  dark:bg-transparent dark:text-white87
             "
+                  autoComplete="off"
                   type="email"
                   name="email"
                   id="email"
