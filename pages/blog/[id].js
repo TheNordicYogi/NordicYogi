@@ -71,7 +71,7 @@ export default function Post({ postData }) {
                   <Image
                     className="min-w-26 rounded-full"
                     src={postData.authorImg}
-                    alt=""
+                    alt={postData.authorName}
                     width={64}
                     height={64}
                     priority={true}

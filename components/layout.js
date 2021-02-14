@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
   };
 
   return (
-    <div className="max-w-xl py-0 mt-12 mx-auto mb-24 px-4 md:px-0">
+    <div className=" py-0 mt-12 mx-auto mb-24 px-4 md:px-0 max-w-xl">
       <Head>
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/logo512.png" />
@@ -77,7 +77,7 @@ export default function Layout({ children, home }) {
           <meta />
         )}
       </Head>
-      <header className="flex flex-col items-center">
+      <header className="flex flex-col items-center max-w-xl mx-auto">
         {home ? (
           <>
             <Image
@@ -97,7 +97,7 @@ export default function Layout({ children, home }) {
       </header>
       <main className="">{children}</main>
       {!home && (
-        <div>
+        <div className="mx-auto max-w-xl">
           {formSubmitted ? (
             <div className="flex flex-col items-center text-lg justify-around mt-8">
               <h4 className="text-4xl font-extrabold tracking-tighter dark:text-white87 ">

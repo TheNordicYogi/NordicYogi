@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <section className="text-xl dark:text-white87 transition duration-500 ease-in-out">
+        <section className="text-xl dark:text-white87 transition duration-500 ease-in-out mx-auto max-w-xl">
           <p>
             Hi, I'm Curtis and I have a passion for religion, wine and building
             websites with React.
@@ -31,11 +31,11 @@ export default function Home({ allPostsData }) {
           <p></p>
         </section>
         <section className="py-4 text-xl">
-          <h2 className="text-2xl my-4 mx-0  font-semibold dark:text-white87">
+          <h2 className="text-2xl my-4 mx-auto font-semibold dark:text-white87 max-w-xl">
             Blog
           </h2>
 
-          <ul className="list-none py-4 px-0 m-0 md:flex-grow md:flex-">
+          <ul className="list-none my-4 py-4 px-0 m-0 max-w-xl mx-auto ">
             {allPostsData.map(
               ({
                 id,
@@ -51,7 +51,7 @@ export default function Home({ allPostsData }) {
               }) => (
                 <li className="my-4" key={id}>
                   <Link href={`/blog/${id}`}>
-                    <div className="flex flex-col rounded shadow-lg cursor-pointer w-full sm:w-10/12 mx-auto dark:bg-mgray">
+                    <div className="flex flex-col rounded shadow-lg cursor-pointer w-full mx-auto dark:bg-mgray">
                       <div>
                         <img
                           src={header}
