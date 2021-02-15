@@ -14,21 +14,21 @@ type: "Guest Blog"
 
 ## Our Mission
 
-Since Midgard launched at the beginning of the year it has been an overnight success! In an effort to scale our own business, we want to scale yours! This time, however, we won't get paid until you do!
+Since its inception and launch just over a month ago, Midgard has become an overnight success! In an effort to scale our own business, we want to scale yours. This time around, we won’t get paid until **you** do!
 
 ## Business Candidate
 
-We are looking for an established business that has the capacity to convert leads and fulfill more order volume. Midgard Marketing will establish your company online and generate more leads by:
+We’re looking for an established business with the capacity to convert leads and fulfill more order volume. Midgard Marketing will establish your company’s online presence and generate more leads by:
 
-- -- Building a beautiful website to represent your business
+- -- Building a transformational website to represent your business
 
-- -- Creating and Establishing your business in Google's search results
+- -- Establishing your business in Google's search results
 
-- -- Automating a lead funnel, putting leads right into your spreadsheet
+- -- Automating a lead funnel -- putting leads right into your spreadsheet
 
 - -- Targeting advertisements to your client demographic and niche
 
-With no out of pocket cost!
+All of this with no out-of-pocket cost!
 
 ### 1 month organic growth for our client
 
@@ -36,7 +36,7 @@ With no out of pocket cost!
 
 ## What's the catch?
 
-We are only accepting one candidate for this experiment. Midgard will create a contract with your company to be paid a percent of fulfilled orders from our leads. This percent will vary based on profit and product. Rest assured, we are committed to mutually beneficial business.
+This is a one-time offer. If selected, Midgard will create a contract with your company to be paid a percentage of fulfilled orders from our leads. This percentage will vary based on profit and product. We are committed to a mutually beneficial business partnership that catapults your business into the next level of online presence. Your success is ours.
 
 ## Sign up today
 
