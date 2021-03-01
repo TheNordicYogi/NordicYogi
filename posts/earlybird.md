@@ -18,9 +18,9 @@ authorName: "Curtis Knudson"
 
 I am always skeptical when anyone wants to sell me anything, but as all good things come, I found it when I wasn't looking.
 
-My friend wouldn't stop raving about **Early Bird** and it's incredible benefits. Feeling restless, consantly crashing from 3 cups of coffee per day, and the copious amounts of dairy that came long with it, I was desparate to try something different.
+My friend wouldn't stop raving about **Early Bird** and it's incredible benefits. Feeling restless, constantly crashing from 3 cups of coffee per day, and the copious amounts of dairy that came with it, I was desperate to try something different.
 
-And boy, am I glad that I did. **Early Bird** has changed my life by changing my morning. I start every morning by drinking 12 ounces of **Early Bird** within 60 seconds of waking up. My far-more-skeptical wife is also sold! Since I started using **Early Bird** I haven't slept-in once, I don't crash at 2:00 PM, and I am far more productive. I look forward to my mornings!
+**Early Bird** has changed my life by changing my morning. I start every morning by drinking 12 ounces of **Early Bird** within 60 seconds of waking up. My far-more-skeptical wife is also sold! Since I started using **Early Bird** I haven't slept-in once, I don't crash at 2:00 PM, and I am far more productive. I look forward to my mornings!
 
 THANK YOU, **EARLY BIRD**
 
