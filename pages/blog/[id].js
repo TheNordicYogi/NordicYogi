@@ -65,7 +65,7 @@ export default function Post({ postData }) {
               <span className="text-gray-400"> {postData.subtitle}</span>
             </h1>
 
-            <div className="text-gray-400 my-6 flex items-center">
+            <div className="text-gray-400 my-4 flex items-center">
               <Link href="/">
                 <a className=" w-full flex items-center ">
                   <Image
@@ -76,7 +76,7 @@ export default function Post({ postData }) {
                     height={64}
                     priority={true}
                   />
-                  <div className="flex flex-col w-full  px-4 justify-start">
+                  <div className="flex flex-col w-full  px-4 justify-start text-sm">
                     <span className=" text-green-600  ">
                       {postData.authorName}
                     </span>

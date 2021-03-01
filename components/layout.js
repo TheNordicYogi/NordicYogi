@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
   };
 
   return (
-    <div className=" py-0 mt-12 mx-auto mb-24 px-4 md:px-0 max-w-xl">
+    <div className=" py-0 mt-2 mx-auto mb-24 px-4 md:px-0 max-w-xl">
       <Head>
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/logo512.png" />
